@@ -1,0 +1,476 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #f4f4f4;
+}
+.header {
+  display: flex;
+  margin-top: 0;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100vw;
+  background-color: #101010;
+  z-index: 10;
+}
+.logo {
+  display: flex;
+  height: 42px;
+  width: 50px;
+}
+.khuvsgul-lake {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 605px;
+  margin-top: 300px;
+  margin-bottom: 180px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-text {
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.trip-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.trip-small-text {
+  color: #ababab;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.photos {
+  display: flex;
+  width: 1199px;
+  height: 400px;
+  gap: 21px;
+  margin-bottom: 240px;
+}
+.photo1 {
+  height: 400px;
+  width: 284px;
+  border-radius: 12px;
+}
+.photo1:hover {
+  content: url("image\ 30.png");
+}
+.photo2 {
+  height: 400px;
+  width: 284px;
+  border-radius: 12px;
+}
+.photo2:hover {
+  content: url("image\ 31.png");
+}
+.photo3 {
+  height: 400px;
+  width: 284px;
+  border-radius: 12px;
+}
+.photo3:hover {
+  content: url("image\ 32.png");
+}
+.photo4 {
+  height: 400px;
+  width: 284px;
+  border-radius: 12px;
+  transition: background-image 0.3s ease;
+}
+.photo4:hover {
+  content: url("image\ 33.png");
+}
+.Destination-main {
+  display: flex;
+  position: relative;
+  height: 845px;
+  width: 1198px;
+  margin-bottom: 400px;
+}
+.tours {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  flex-direction: column;
+  height: 796px;
+  width: 358px;
+}
+.tour-photos {
+  display: flex;
+  position: absolute;
+  left: 284px;
+  bottom: 28px;
+  height: 845px;
+  width: 682px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  margin-left: 150px;
+  background-image: url(./Map.png);
+}
+.tour-desciption {
+  color: #ababab;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.tours-title {
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+.tour-list {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 608px;
+  width: 303px;
+  bottom: 0;
+  left: 4px;
+  margin-top: 80px;
+}
+.tour-left-circle {
+  display: flex;
+  align-items: flex-start;
+  left: 0;
+  flex-direction: column;
+  gap: 21px;
+  margin-right: 26px;
+}
+.doodzai {
+  height: 49px;
+}
+.deedzai {
+  height: 120px;
+}
+.left-line-background {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  border-left: 3px dashed #121316;
+  height: 491px;
+  width: 1px;
+  top: 60px;
+  left: 23px;
+}
+.circle-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+}
+.circle-menu-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 56px;
+}
+.circle-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: #1d1f24;
+}
+.d-text {
+  color: #16a94a;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+.right-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  position: relative;
+}
+.right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 81.5px;
+  width: 231px;
+  margin-bottom: 16px;
+}
+.right-text-bold {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.right-text-normal {
+  color: #777777;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+.pricing-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 607px;
+  width: 789px;
+}
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 157px;
+  width: 299px;
+  margin-bottom: 80px;
+}
+.pricing-desciption {
+  color: #ababab;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.pricing-title {
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+.pack-main {
+  display: flex;
+  height: 370px;
+  width: 590px;
+  gap: 20px;
+  margin-bottom: 400px;
+}
+.starter-pack {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 285px;
+  background-color: white;
+  border-radius: 24px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.starter-pack:hover {
+  border-color: #18ba51;
+}
+.starter-pack-container {
+  margin: 40px;
+}
+.starter-pack-list {
+  height: 229px;
+  width: 155px;
+  margin-bottom: 22px;
+}
+.starter-pack-head {
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+.starter-pack-list-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.starter-pack-list-text {
+  color: #777777;
+}
+.starter-pack-price {
+  display: flex;
+  justify-content: flex-end;
+  height: 39px;
+  width: 205px;
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.luxury-pack {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 285px;
+  background-color: white;
+  border-radius: 24px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.luxury-pack:hover {
+  border-color: #18ba51;
+}
+.luxury-pack-container {
+  margin: 40px;
+}
+.luxury-pack-list {
+  height: 229px;
+  width: 155px;
+  margin-bottom: 22px;
+}
+.luxury-pack-head {
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+.luxury-pack-list-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.luxury-pack-list-text {
+  color: #777777;
+}
+.starter-list-strong {
+  color: #777777;
+}
+.luxury-pack-price {
+  display: flex;
+  justify-content: flex-end;
+  height: 39px;
+  width: 205px;
+  color: #303030;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+ul li::marker {
+  color: #777777;
+  font-size: 0.65em;
+}
+.r-u-rdy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 393px;
+  width: 100vw;
+  background-color: #171717;
+}
+.r-u-rdy-text {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.order {
+  background-color: #18ba51;
+  color: white;
+  height: 44px;
+  width: 130px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 228px;
+  width: 100vw;
+  background-color: #101010;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 80px;
+}
+.pinetour {
+  height: 68px;
+  width: 81px;
+}
+.social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  height: 44px;
+  width: 381px;
+}
+.fb {
+  height: 44px;
+  width: 167px;
+}
+.ig {
+  height: 44px;
+  width: 167px;
+}
+.sukhbaatar:hover ~ .tour-photos {
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  background-image: url(./photo1.png);
+  transition: 0.3s ease;
+}
+.khuvsgul:hover ~ .tour-photos {
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  background-image: url(./image\ 31.png);
+  transition: 0.3s ease;
+}
+.khorgiin-togoo:hover ~ .tour-photos {
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  background-image: url(./image\ 32.png);
+  transition: 0.3s ease;
+}
+.terkhiin-tsagaan:hover ~ .tour-photos {
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  background-image: url(./image\ 33.png);
+  transition: 0.3s ease;
+}
+.amarbaysgalant:hover ~ .tour-photos {
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  background-image: url(./image\ 30.png);
+  transition: 0.3s ease;
+}
